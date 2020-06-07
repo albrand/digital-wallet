@@ -1,0 +1,19 @@
+<div class="container-dashboard">
+  <div class="outcome-tiles">
+    <div *ngFor="let tile of tiles" class="tiles">
+      <div>
+        <h1>
+          {{ tile.title }}
+        </h1>
+      </div>
+      <div>
+        <p>
+          {{ tile.qty }}
+        </p>
+      </div>
+      <div>
+        <h2>{{ tile.value }}</h2>
+      </div>
+    </div>
+  </div>
+</div>

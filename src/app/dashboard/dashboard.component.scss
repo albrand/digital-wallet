@@ -1,0 +1,23 @@
+.container-dashboard {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+}
+.outcome-tiles {
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+}
+
+.tiles {
+  color: white;
+  background-color: #1d1d1d;
+  height: 100%;
+  width: 33%;
+  margin: 15px;
+  padding: 25px;
+}
